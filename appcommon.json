@@ -1,0 +1,227 @@
+{
+  "appCore": {
+    "appName": "Inspiration",
+    "theme": "tattoo_discovery",
+    "mainScene": "inspiration_feed",
+    "defaultLanguage": "en-US"
+  },
+  "uiTheme": {
+    "background": "soft_ivory",
+    "primaryAccent": "electric_yellow",
+    "secondaryAccent": "olive_gray",
+    "cardStyle": {
+      "cornerRadius": 28,
+      "shadowLevel": "soft",
+      "borderTone": "warm_gray"
+    }
+  },
+  "topHeader": {
+    "title": "Inspiration",
+    "backButtonVisible": true,
+    "shareButtonVisible": true,
+    "titleFont": "serif_bold"
+  },
+  "walletBadge": {
+    "currencyName": "zaixiamian",
+    "balance": 500,
+    "icon": "renjinihao",
+    "badgeColor": "bright_yellow"
+  },
+  "searchBar": {
+    "enabled": true,
+    "placeholder": "Search designs, styles, or artists...",
+    "icon": "magnifier",
+    "suggestions": [
+      "fine line lotus",
+      "floral back tattoo",
+      "geometric wrist"
+    ]
+  },
+  "bodyCategories": {
+    "active": "All Feed",
+    "items": [
+      "All Feed",
+      "Wrist",
+      "Ankle",
+      "Back",
+      "Inner Arm",
+      "Shoulder"
+    ],
+    "layout": "horizontal_pills"
+  },
+  "feedLayout": {
+    "type": "vertical_cards",
+    "cardSpacing": 30,
+    "sidePadding": 24,
+    "imageRatio": "portrait"
+  },
+  "featuredCard": {
+    "designId": "tattoo_floral_radiance_001",
+    "title": "Floral Radiance",
+    "badge": "STAFF PICK",
+    "coverImage": "floral_back_piece",
+    "favoriteCount": 3240
+  },
+  "featuredArtist": {
+    "artistId": "artist_elena_thorne",
+    "name": "Elena Thorne",
+    "studio": "Thorne Botanical Ink",
+    "specialty": "Floral Realism"
+  },
+  "secondCard": {
+    "designId": "tattoo_celestial_orbit_002",
+    "title": "Celestial Orbit",
+    "badge": "GEOMETRIC",
+    "coverImage": "geometric_wrist_piece",
+    "favoriteCount": 2180
+  },
+  "secondArtist": {
+    "artistId": "artist_marcus_vane",
+    "name": "Marcus Vane",
+    "studio": "Vane Line Studio",
+    "specialty": "Sacred Geometry"
+  },
+  "detailPage": {
+    "designId": "tattoo_geometric_lotus_003",
+    "title": "Geometric Lotus",
+    "artistName": "Aura Ink Studio",
+    "heroImage": "geometric_lotus_inner_arm"
+  },
+  "styleTags": {
+    "items": [
+      "Fine Line",
+      "Inner Arm",
+      "Geometric"
+    ],
+    "shape": "soft_capsule",
+    "iconEnabled": true
+  },
+  "placementInfo": {
+    "bodyArea": "Inner Arm",
+    "orientation": "vertical",
+    "recommendedSizeCm": {
+      "width": 8,
+      "height": 11
+    }
+  },
+  "techniqueInfo": {
+    "title": "Style",
+    "technique": "Fine line needlework",
+    "shading": "soft_dot_shading",
+    "lineWeight": "delicate"
+  },
+  "symmetryInfo": {
+    "title": "Symmetry",
+    "type": "central_axis",
+    "balanceLevel": "high",
+    "alignmentGuide": "forearm_center"
+  },
+  "conceptNote": {
+    "title": "Minimalist Intent",
+    "summary": "A modern lotus design built around balance, calm, and natural body contours.",
+    "keywords": [
+      "calm",
+      "balance",
+      "growth"
+    ]
+  },
+  "artistProfile": {
+    "artistId": "artist_aura_ink",
+    "displayName": "Aura Ink Studio",
+    "location": "Portland",
+    "yearsActive": 8,
+    "portfolioCount": 146
+  },
+  "favoriteState": {
+    "designId": "tattoo_geometric_lotus_003",
+    "isSaved": false,
+    "folderName": "Minimal Ink",
+    "savedCount": 1280
+  },
+  "shareAction": {
+    "enabled": true,
+    "shareTitle": "Geometric Lotus Inspiration",
+    "shareImage": "geometric_lotus_inner_arm",
+    "includeArtistName": true
+  },
+  "aiTattoo": {
+    "enabled": true,
+    "buttonText": "Try with AI",
+    "generationMode": "placement_preview",
+    "resultCount": 4
+  },
+  "photoInput": {
+    "cameraEnabled": true,
+    "albumEnabled": true,
+    "maxPhotoCount": 1,
+    "requiredPose": "clear_body_area"
+  },
+  "placementPreview": {
+    "supportedAreas": [
+      "wrist",
+      "ankle",
+      "inner_arm",
+      "back",
+      "shoulder"
+    ],
+    "rotationEnabled": true,
+    "scaleEnabled": true,
+    "opacityRange": {
+      "min": 0.35,
+      "max": 1.0
+    }
+  },
+  "saveAction": {
+    "buttonText": "Save",
+    "icon": "bookmark",
+    "defaultFolder": "Saved Designs",
+    "maxSavedItems": 300
+  },
+  "communityPage": {
+    "title": "Community",
+    "sections": [
+      "Fresh Ink",
+      "Artist Stories",
+      "Placement Ideas"
+    ],
+    "postLayout": "image_feed"
+  },
+  "profilePage": {
+    "savedDesigns": 24,
+    "aiResults": 7,
+    "followedArtists": 12,
+    "recentViews": 18
+  },
+  "bottomTabs": {
+    "active": "Home",
+    "items": [
+      "Home",
+      "Community",
+      "AI Tattoo",
+      "Profile"
+    ],
+    "centerItem": "AI Tattoo"
+  },
+  "recommendationRules": {
+    "mode": "style_and_area",
+    "dailyCount": 16,
+    "artistMixRatio": 0.35,
+    "freshDesignRatio": 0.4
+  },
+  "notificationCenter": {
+    "newDesignAlert": true,
+    "artistPostAlert": true,
+    "savedDesignAlert": false,
+    "quietHours": {
+      "enabled": true,
+      "start": "22:30",
+      "end": "08:00"
+    }
+  },
+  "sessionState": {
+    "lastOpenTab": "Home",
+    "lastCategory": "All Feed",
+    "lastViewedDesignId": "tattoo_geometric_lotus_003",
+    "sessionViewCount": 6
+  }
+}
