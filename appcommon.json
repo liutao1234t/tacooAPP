@@ -24,7 +24,7 @@
   "walletBadge": {
     "currencyName": "zaixiamian",
     "balance": 500,
-    "icon": "renjinihao-no",
+    "icon": "renjinihao",
     "badgeColor": "bright_yellow"
   },
   "searchBar": {
